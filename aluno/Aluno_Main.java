@@ -1,3 +1,4 @@
+//Encapsulamento
 import java.util.Scanner;
 
 public class Aluno_Main {
@@ -13,8 +14,8 @@ public class Aluno_Main {
 		System.out.println(aluno01.calcularMedia());
 		
 		/*System.out.println(aluno02.toString());
-		System.out.println("Média = "+aluno02.calcularMedia());
-		System.out.println("Média Final = " +aluno02.calcularMediaFinal());*/
+		System.out.println("MÃ©dia = "+aluno02.calcularMedia());
+		System.out.println("MÃ©dia Final = " +aluno02.calcularMediaFinal());*/
 		
 	}
 
