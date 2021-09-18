@@ -1,3 +1,4 @@
+//heranÃ§a
 package Exercicio_02;
 
 public class Caminhao extends Veiculo{
@@ -25,7 +26,7 @@ public class Caminhao extends Veiculo{
 
 	@Override
 	public String toString() {
-		return "Informações do Caminhao: \nEixos: " + eixos + "\n" + super.toString();
+		return "InformaÃ§Ãµes do Caminhao: \nEixos: " + eixos + "\n" + super.toString();
 	}
 	
 	
