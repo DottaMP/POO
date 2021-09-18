@@ -1,3 +1,4 @@
+//heranÃ§a
 package Exercicio_02;
 
 public class Onibus extends Veiculo{
@@ -24,7 +25,7 @@ public class Onibus extends Veiculo{
 
 	@Override
 	public String toString() {
-		return "Informações do Onibus: \nAssentos: " + assentos + "\n" + super.toString();
+		return "InformaÃ§Ãµes do Onibus: \nAssentos: " + assentos + "\n" + super.toString();
 	}
 	
 	
