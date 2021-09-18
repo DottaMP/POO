@@ -1,3 +1,4 @@
+//herança
 package Exercicio_01;
 
 public class Gerente extends Funcionario{
