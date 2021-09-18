@@ -1,3 +1,4 @@
+//herança
 package Exercicio_02;
 
 import java.util.Scanner;
@@ -16,7 +17,7 @@ public class EntradaDeDados {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.print("Informe a quantidade de ve�culos: ");
+		System.out.print("Informe a quantidade de veículos: ");
 		int n = ler.nextInt();
 		Veiculo[] veiculos = new Veiculo[n];
 		
