@@ -1,4 +1,4 @@
-
+//OO
 public class Carro {
 	//Atributos		
 	String marca;
@@ -6,10 +6,10 @@ public class Carro {
 	String cor;
 	int ano;
 	
-	//MÈtodos
-	public Carro (String marca, String modelo, String cor, int ano ) {// Este È o mÈtodo construtor, leva o 
-		//mesmo nome da classe. Pode-se colocar os atributos dentro do (). PorÈm esses mesmos atributos 
-		//dever„o ser declarados dentro dos () no instanciamento do objeto.
+	//M√©todos
+	public Carro (String marca, String modelo, String cor, int ano ) {// Este √© o m√©todo construtor, leva o 
+		//mesmo nome da classe. Pode-se colocar os atributos dentro do (). Por√©m esses mesmos atributos 
+		//dever√£o ser declarados dentro dos () no instanciamento do objeto.
 		this.marca = marca;
 		this.modelo = modelo;
 		this.cor = cor;
