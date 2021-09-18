@@ -1,3 +1,4 @@
+//Encapsulamento
 
 	public class Aluno {
 	//Atributos
@@ -8,12 +9,12 @@
 	private double notaReavaliacao;
 	private boolean aprovado;
 	
-	//Construtor sem par‚metros
+	//Construtor sem par√¢metros
 	Aluno(){
 		
 	}
 	
-	//Construtor com par‚metros
+	//Construtor com par√¢metros
 	Aluno(String nome, String matricula, Double nota1, 
 			Double nota2, Double notaReavaliacao){
 		this.nome = nome;
@@ -28,7 +29,7 @@
 	@Override
 	public String toString() {
 		return "Aluno [nome= " + nome + ", matricula= " + matricula + ", nota1= " + nota1 + ", nota2= " + nota2
-				+ ", notaReavaliacao= " + notaReavaliacao + ", MÈdia= " + calcularMedia() + "]";
+				+ ", notaReavaliacao= " + notaReavaliacao + ", M√©dia= " + calcularMedia() + "]";
 	}	
 	
 	public double calcularMedia() {
@@ -68,7 +69,7 @@
 			nota1 = nota1;
 			aprovado = (calcularMediaFinal() >= 6);
 		} else {
-			System.out.println("Nota 1="+nota1+ " - Valor Inv·lido!");
+			System.out.println("Nota 1="+nota1+ " - Valor Inv√°lido!");
 		}
 	}
 
@@ -81,7 +82,7 @@
 			nota2 = nota2;
 			aprovado = (calcularMediaFinal() >= 6);
 		} else {
-			System.out.println("Nota 2="+nota2+ " - Valor Inv·lido!");
+			System.out.println("Nota 2="+nota2+ " - Valor Inv√°lido!");
 		};
 	}
 
